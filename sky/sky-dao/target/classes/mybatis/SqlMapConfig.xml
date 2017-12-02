@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 全局setting配置 -->
+	<typeAliases>
+		<package name="com.sky.po"></package>
+	</typeAliases>
+	<!-- 由于我们使用spring和mybatis的整合包进行mapper扫描，这里不需要配置了 -->
+</configuration>
